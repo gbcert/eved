@@ -102,3 +102,45 @@ img::selection { color: white; background: transparent; }
 img::-moz-selection { color: white; background: transparent; }
 
 body { -webkit-tap-highlight-color: #222; }
+
+.pricing_v1 {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.deneb_pricing .pircing_box {
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0,0,0,0.15);
+    border: 3px dashed #fff;
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -ms-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.deneb_pricing .pircing_box .icon {
+    margin-bottom: 30px;
+}
+.deneb_pricing .pircing_box .title {
+    margin-bottom: 30px;
+}
+.deneb_pricing .pircing_box .list {
+    margin-bottom: 25px;
+    list-style: none;
+}
+.deneb_pricing .pircing_box .list li{
+    list-style: none;
+}
+.deneb_pricing .pircing_box .list ul{
+    padding: 0px;
+}
+.deneb_pricing .pircing_box .price {
+    margin-bottom: 25px;
+}
